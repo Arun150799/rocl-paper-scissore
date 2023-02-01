@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module1</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="frame1">
+
+        <div class="container2">
+            <div class="left">
+                <h2>Rock</h2>
+                <h2>Paper</h2>
+                <h2>Scissore</h2>
+                            
+            <div class="right">
+
+              <h3>Your Score</h3>
+              <h6 id="counter" >0</h6>
+            </div>
+            </div>
+
+            
+
+        </div>
+        
+        <div class="popUp" id="popUp1">
+            <div class="overLay"></div>
+            <div class="content">
+                <i class="fa fa-times" id="closeBtn" onclick="togglePopup()"></i>
+            <h1>Game Rule</h1>
+            <p> 🟨Rock beats Scissors, Scissors beats Paper and Paper beats Rock .</p>
+            <p> 🟨Agree ahead of time whether you'll count off "Rock,Paper,Scissors,shoot",or just "Rock,Paper,Scissors."</p>
+            <p> 🟨Use Rock,Paper,Scissors to settle minor decisions or simply play to pass the time.</p>
+            <p> 🟨If both players lay down the same hand, each players lays down another hand.</p>
+            
+        </div>
+        </div>
+
+        
+<div class="portion">
+<div class="line1"> _ </div>
+<button id="btnS" class="BtnS" >
+    <img  src="https://imgs.search.brave.com/vg1EwAtXpmq4bdTroAINvHgYg8UqVMrnV2AL6thdQHE/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/ZEoyNXNQUjJoVjdo/d041dUtWQ0lnSGFI/YSZwaWQ9QXBp" id="img1">
+</button>
+<div class="line2"> \</div>
+<div class="line3"> /</div>
+<button id ="btnR" class="BtnR" >
+    <img src="https://imgs.search.brave.com/4wmXjN3l-oq6LRMzutW1NHSbmFXCCEiJhzoiPg6ntSA/rs:fit:180:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/T2VUSWlEZWtZN0V5/VWxYWnRVNG5RQUFB/QSZwaWQ9QXBp" id="img2">
+    </button>
+<button id ="btnP"class="BtnP" >
+    <img src="https://imgs.search.brave.com/brss2OLCKsgCZXNnxy2nLgFb8QAw0Wb2jwIRNqT5aUA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/M1BheDNWZENOaWdU/UW03dUwtNWhBSGFI/YSZwaWQ9QXBp" id="img3">
+    </button>
+</div>
+
+<div class="yourResult" id="yourPicked"></div>
+<div class="pcResult" id="pcPicked"></div>
+
+<!-- <div class="finalResult">
+    <span id="finalResult">Result</span>
+</div> -->
+<!-- <div class="finalResult"> -->
+    <span id="finalResult"></span>
+    <span id="tryAgain"></span>
+    <span class="pcImg" id="showPc"></span>
+    <span id="pickYou"></span>
+    <span id="pickPc"></span>
+    <!-- <span id="showYou"></span> -->
+<!-- </div> -->
+
+</div>
+<!-- <button id="rePlay">Play again</button> -->
+ <button id="RuleBtn" onclick="togglePopup()">Rules</button>
+
+    </div>
+       </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
